@@ -1,0 +1,6 @@
+@Produpia.Api_HostAddress = http://localhost:5244
+
+GET {{Produpia.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
