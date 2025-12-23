@@ -1,4 +1,22 @@
 <Solution>
   <Folder Name="/Src/" />
-  <Folder Name="/Tests/" />
+  <Folder Name="/Src/Core/">
+    <Project Path="Src/ApplicationCore/Produpia.Contracts/Produpia.Contracts.csproj" />
+    <Project Path="Src/ApplicationCore/Produpia.Domain/Produpia.Domain.csproj" />
+    <Project Path="Src/ApplicationCore/Produpia.Services/Produpia.Services.csproj" />
+  </Folder>
+  <Folder Name="/Src/Infrastructure/">
+    <Project Path="Src/Infrastructure/Produpia.Persistance/Produpia.Persistance.csproj" />
+  </Folder>
+  <Folder Name="/Src/Presentation/">
+    <Project Path="Src/Presentation/Produpia.Api/Produpia.Api.csproj" />
+    <Project Path="Src/Presentation/Produpia.Presentaion/Produpia.Presentaion.csproj" />
+  </Folder>
+
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Produpia.ArchitectureTests/Produpia.ArchitectureTests.csproj" />
+    <Project Path="Tests/Produpia.EndToEndTests/Produpia.EndToEndTests.csproj" />
+    <Project Path="Tests/Produpia.IntegrationTests/Produpia.IntegrationTests.csproj" />
+    <Project Path="Tests/Produpia.UnitTests/Produpia.UnitTests.csproj" />
+  </Folder>
 </Solution>
